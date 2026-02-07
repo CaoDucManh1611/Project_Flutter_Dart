@@ -1,0 +1,5 @@
+LT,MH01,Lap trinh Dart,3,8.5,9.0
+LT,MH02,Co so du lieu,2,7.0,8.0
+LT,MH03,Cau truc du lieu,3,9.0,8.5
+LT,MH04,Mang may tinh,2,6.5,7.5
+LT,MH05,He dieu hanh,3,8.0,8.0
