@@ -6,7 +6,9 @@ import 'ViDu3.dart';
 import 'BaiTap1.dart';
 import 'BaiTap2.dart';
 import 'BaiTap3.dart';
-
+import 'BaiTapVN1.dart';
+import 'BaiTapVN2.dart';
+import 'BaiTapVN3.dart';
 void main() {
   runApp(const MyApp());
 }
@@ -62,6 +64,10 @@ class MenuScreen extends StatelessWidget {
           _buildMenuItem(context, 'Bài 1: Máy Tính Windows', const BaiTap1(), Icons.calculate),
           _buildMenuItem(context, 'Bài 2: Cơ Sở Vật Chất HUIT', const BaiTap2(), Icons.school),
           _buildMenuItem(context, 'Bài 3: Dashboard Jared', const BaiTap3(), Icons.dashboard),
+          _buildMenuItem(context, 'Bài 4: ví diện tử', BaiTapVN1(), Icons.dashboard),
+          _buildMenuItem(context, 'Bài 5: khám chữa bệnh', BaiTapVN2(), Icons.dashboard),
+          _buildMenuItem(context, 'Bài 6: màn hình nghe nhạc', BaiTapVN3(), Icons.dashboard),
+
         ],
       ),
     );
