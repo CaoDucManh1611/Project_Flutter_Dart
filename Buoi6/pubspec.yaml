@@ -1,0 +1,33 @@
+name: btltdd
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.10.7
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+
+  # Các thư viện phục vụ chạy ứng dụng phải nằm ở đây
+  sqflite: ^2.3.0
+  path: ^1.8.3
+  provider: ^6.1.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  # Các thư viện phục vụ kiểm tra code (lints) nằm ở đây
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+
+  # Nếu bạn có dùng hình ảnh (assets), hãy bỏ comment và thêm ở đây
+  # assets:
+  #   - assets/images/
