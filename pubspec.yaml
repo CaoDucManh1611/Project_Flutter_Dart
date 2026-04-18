@@ -1,0 +1,35 @@
+name: buoi7
+description: "Dự án thực hành buổi 7 - Media và Resources"
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.11.1
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+
+  # Thêm các thư viện cho bài tập 1, 2, 3, 4
+  image_picker: ^1.0.7
+  permission_handler: ^11.3.1
+  video_player: ^2.8.2
+  audioplayers: ^5.2.1
+  # Thêm thư viện này cho bài tập 6 (về nhà)
+  sqflite: ^2.3.0
+  path: ^1.8.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+
+  # Khai báo thư mục chứa nhạc cho bài tập 4 & 5
+  assets:
+    - assets/audios/
